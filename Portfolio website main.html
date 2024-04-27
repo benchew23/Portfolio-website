@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Website portfolio CSS.css">
+	<title>Ben's Website</title>
+	<link rel="icon" type="image/x-icon" href="Cool emoji.png"> <!--hi-->
+</head>
+
+<body>
+	<div id="header" class="column-container" style="flex-direction:row;">
+		<img src="Cool emoji.png" class="cool-image">
+		<h1 style="margin-left:30px;margin-right:30px;">Ben's website</h1>
+		<img src="Cool emoji.png" class="cool-image">
+	</div>
+	
+	<div class="column-container">
+		<p class="text" style="max-width:60%; text-align:center; margin-bottom:4%">
+			Hello bro, I'm Benjamin, welcome to my website! 
+			Feel free to explore around and maybe learn something new about me!🔥🔥
+		</p>
+	</div>
+	
+	<div class="row-container">
+		<button class="info-button" onclick="window.location.href='Portfolio website hobbies.html'"
+		style="background-image:url('Info button.png');">About me</button>
+		
+		<button class="info-button" onclick="window.location.href='Portfolio website portfolio.html'" 
+		style="background-image:url('Portfolio button.png');">Portfoilo</button>
+	</div>
+	
+	
+	<div class="column-container" style="justify-content:left; margin-top:10%">
+		<h2 class="text" style="font-weight:1000;">Slide into my DMs 😉😉</h2>
+		<form>
+			<div class="row-container" style="align-items:flex-end">
+				<label for="name" class="text">Name:</label>
+				<input type="text" id="name" name="name">
+			</div>
+			<div class="row-container">
+				<label for="message" class="text">Message: </label>
+				<input type="text" id="message" name="message">
+			</div>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+
+</html>
