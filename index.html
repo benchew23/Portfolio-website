@@ -31,21 +31,33 @@
 		style="background-image:url('Portfolio button.png');">Portfoilo</button>
 	</div>
 	
-	
-	<div class="column-container" style="justify-content:left; margin-top:10%">
+	<div class="row-container" style="justify-content:left;">
+	<div class="column-container" style="align-items:left; margin-top:10%; margin-left:10%;">
 		<h2 class="text" style="font-weight:1000;">Slide into my DMs 😉😉</h2>
 		<form>
-			<div class="row-container" style="align-items:flex-end">
-				<label for="name" class="text">Name:</label>
-				<input type="text" id="name" name="name">
-			</div>
-			<div class="row-container">
-				<label for="message" class="text">Message: </label>
-				<input type="text" id="message" name="message">
-			</div>
-			<input type="submit" value="Submit">
+			<table style="margin-bottom:5%;">
+				<tr>
+					<td><label for="name" class="text">Name:</label></td>
+					<td><input type="text" id="name" name="name"></td>
+				</tr>
+				<tr>
+					<td><label for="message" class="text">Message: </label></td>
+					<td><input type="text" id="message" name="message"></td>
+				</tr>
+				<tr>
+					<td><label for="friend" class="text">Status: </label></td>
+					<td><select name="friend" id="friend" class="text">
+						<option value="Homie">Homie</option>
+						<option value="Close friend">Close friend</option>
+						<option value="Hi-bye friend">Hi-bye friend</option>
+						<option value="Opps">Opps</option>
+					</select></td>
+				</tr>
+				
+			</table>
+			<input type="submit" value="Submit" class="text">
 		</form>
-	</div>
+	</div></div>
 </body>
 
 </html>
